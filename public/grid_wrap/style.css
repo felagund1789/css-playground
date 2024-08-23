@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+}
+
+.card-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  min-height: 800px;
+}
+
+.card {
+  margin: 0 auto;
+  background-color: #1d1d1f;
+  padding: 2em;
+  text-align: center;
+  border-radius: 10px;
+  position: relative;
+}
